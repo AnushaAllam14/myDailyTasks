@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width: 90vw;
+            border: 2px solid black;
+            border:hidden;
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+            grid-template-rows: repeat(3,200px);
+            gap: 5px;
+            justify-content: center;
+            height: 87vh;
+        
+        }
+        div{
+            border: 1px solid black;
+        }
+        img{
+            background-size:cover ;
+            height: 200px;
+            width:200px ;
+
+        }
+        img:hover{
+          opacity:0.5;
+        }
+        @media screen and (min-width:320px) and (max-width:520px)  { 
+            main{
+                
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            
+                
+            }
+         img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <div><img src="../multimedia.html/images/salmon.jpg" alt=""></div>
+        <div><img src="../multimedia.html/images/cherries.jpg" alt=""></div>
+        <div><img src="../multimedia.html/images/steak.jpg" alt=""></div>
+        <div><img src="../multimedia.html/images/wine.jpg" alt=""></div>
+        <div><img src="../multimedia.html/images/workshop.jpg" alt=""></div>
+        <div><img src="../multimedia.html/images/chef.jpg" alt=""></div>
+        <div><img src="../multimedia.html/images/croissant.jpg" alt=""></div>
+        <div><img src="../multimedia.html/images/gondol.jpg" alt=""></div>
+        <div><img src="../multimedia.html/images/2a.jpg" alt=""></div>
+    </main>
+    
+</body>
+</html>
