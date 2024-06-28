@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        
+        <input type="password" pattern="[a-zA-Z]{3,7}" title="accepts lowercase/uppercase with min of 3 max of 4">
+        <input type="submit"><br>
+        <label for="reviews">give reviews:</label>
+        <textarea name="reviews" id="reviews" rows="5" cols="40" ></textarea>
+        <input type="submit"><br></br>
+
+
+
+
+        <label for="clr">choose your fav color</label>
+        <input type="clrs" >
+        <select name="clrs" id="clr">
+           <option value="user likes red" >red</option>
+           <option value="user likes green">green</option>
+           <option value="user likes pink" >pink</option>
+    
+        </select>
+        <input type="submit"><br></br>
+
+
+        <label for="vote">vote</label>
+        <select name="vote" id="vote" multiple autofocus >
+            <optgroup label="group1">
+           <option value="ycp" >ycp</option>
+           <option value="ycp">tdp</option></optgroup>
+           <optgroup label="group 2">
+           <option value="ycp" >congress</option></optgroup>
+
+           <input type="submit"><br></br>
+          </select>
+
+
+          <label for="list">enter your languages</label>
+          <input type="list" id="list" list="languages" name="languages">
+        <datalist id="languages">
+            <option >telugu</option>
+            <option >tamil</option>
+            <option >hindi</option>
+
+        </datalist>
+
+<input type="submit">
+
+    </form>
+    
+</body>
+</html>

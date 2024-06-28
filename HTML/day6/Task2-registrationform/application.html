@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <form>
+    <fieldset style="background-color: rgb(179, 179, 238);">
+        <legend><strong>10Kcoders</strong></legend>
+<h1 style="color: rgb(129, 58, 195);"><center>STUDENT REGISTRATION FORM</center></h1><br>
+<hr><br>
+<label for="fname" >First Name:</label>
+<input type=" fname" id="fname" required name="first name" ><br></br>
+<label for="lname">Last Name:</label>
+<input type="lname" id="lname" required name="last name"><br></br>
+<label for="dob">Date of Birth:</label>
+<input type="date"><br></br>
+<label for="email">Enter your Email : </label>
+<input type="email" id="email" name="email" placeholder="eg:xxx2gmail.com"><br></br>
+
+<label for="tel">Mobile Number:</label>
+<input type="tel" id="tel" required name="Mobile number">
+<p>Gender:</p>
+<input type="radio" name="gender" id="male" checked >
+<label for="male">Male</label>
+<input type="radio" name="gender" id="female">
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female">
+<label for="others">Others</label><br></br>
+
+<p><strong>Address:</strong></p>
+<label for="Address" ></label>
+<input size="38" type="text" name="Address" id="Address"><br></br>
+
+<label for="city"> <strong>Select your city: </strong></label>
+<select name="city" id="city">
+<option value="vijayawada"> Vijayawada</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Chennai">Chennai</option>
+<option value="Banglore">Banglore</option>
+</select><br></br>
+
+<label for="Pincode"><strong>Pincode:</strong></label>
+<input size="3" type="tel" id="Pincode" name="Pincode"><br></br>
+
+
+<label for="country"> <strong>Country </strong></label>
+<select name="country" id="country">
+<option value="India">INDIA</option>
+<option value="new york">NEW YOURK</option>
+<option value="korea">KOREA</option>
+<option value="USA">USA</option>
+</select><br></br>
+
+<p><strong>Enter your intrests:</strong></p>
+        <input type="checkbox" id="hobbie" name="hobbie" value="Dance">
+        <label for="">Dance</label><br>
+        <input type="checkbox" id="hobbie" name="hobbie" value="Singing">
+        <label for="">Singing</label><br>
+        <input type="checkbox" id="hobbie" name="hobbie" value="Music">
+        <label for="">Music</label><br>
+        <input type="checkbox" id="hobbie" name="hobbie" value="Sports">
+        <label for="">Sports</label><br>
+        <input type="checkbox" id="hobbie" name="hobbie" value="Swimming">
+        <label for="Swimming">Swimming</label><br>
+        <label for="others">Others:</label>
+        <input type="text" id=""><br></br>
+
+
+<table>
+    <tr>
+        <td>
+            <label for="Branch"><strong>Branch:</strong></label>
+
+        </td>
+        <td>
+            <select name="Branch" id="Branch">
+                <option value="IT">Information Tchnology</option>
+                <option value="cse">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="MECH">Mech</option>
+
+
+
+            </select>
+        </td>
+    </tr>
+</table><br></br>
+
+<label  for="CGPA"><strong>Enter your recent CGPA:</strong></label>
+<input size="2" type="number" id="CGPA" name="CGPA"><br></br>
+
+<p><strong>Attach your resent passsport size photo;</strong></p>
+<input type="file" multiple accept=".jpg"><br>
+<br></br><center><input type="submit" value="submit">
+<input type="reset"></center>
+
+    </fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
